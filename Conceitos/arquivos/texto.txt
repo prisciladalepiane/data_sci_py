@@ -1,0 +1,1 @@
+Um arquivo de texto é uma espécie de ficheiro informático que é estruturado como uma sequência de linhas. "Arquivo de texto" refere-se a um tipo de recipiente, enquanto texto plano refere-se a um tipo de conteúdo.  Arquivos com a extensão .txt podem ser facilmente lidos ou abertos por qualquer programa que lê texto, são considerados universais.
