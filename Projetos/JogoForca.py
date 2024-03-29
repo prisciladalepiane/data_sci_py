@@ -1,3 +1,6 @@
+# Jogo da Forca
+# Exeplo de projeto envolvendo conceitos de 1 a 7 
+
 import random as rd
 import regex as re
 from os import system
