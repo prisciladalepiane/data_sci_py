@@ -4,26 +4,19 @@ from os import system
 
 system('cls')
 
-def jogo():
+def jogo(palavras):
+
+    # Variaveis
+    palavra = rd.choice(palavras)
+    letras_descobertas = ['_' for letra in palavra]
+    chances = 10
+    acertos = 0
+    letras_erradas = []
 
     system('cls')
     print("Jogo da Foca:")
     print("Adivinhe a palavra abaixo:\n")
 
-    palavras = ['chocolate', 'morango', 'pastel', 'queijo', 'macarrao']
-
-    palavra = rd.choice(palavras)
-
-    n = len(palavra)
-
-    #List comprehencion
-    letras_descobertas = ['_' for letra in palavra]
-
-    chances = 10
-
-    acertos = 0
-
-    letras_erradas = []
 
     while chances > 0:
         system('cls')
@@ -35,20 +28,20 @@ def jogo():
 
         if tentativa in palavra:
 
-
             posicao = [match.start() for match in re.finditer(tentativa, palavra)]
             
+            if tentativa not in letras_descobertas:
+              acertos += len(posicao)
+
             for l in posicao:
-                letras_descobertas[l] = tentativa
-            
-            acertos += len(posicao)
+              letras_descobertas[l] = tentativa
                        
-            if acertos >= n:
+            if acertos >= len(palavra):
                 print("\n****** FIM DE JOGO*********")
                 print("VOCÊ ACERTOU! =D a palavra é:", palavra)
                 break
 
-        else:
+        elif tentativa not in letras_erradas:
             letras_erradas.append(tentativa)
             chances -= 1
     else: 
@@ -57,7 +50,9 @@ def jogo():
 
 
 
-jogo()
+palavras = ['chocolate', 'morango', 'pastel', 'queijo', 'macarrao']
+
+jogo(palavras)
 
 
 
