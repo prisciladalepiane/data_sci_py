@@ -56,12 +56,3 @@ def jogo(palavras):
 palavras = ['chocolate', 'morango', 'pastel', 'queijo', 'macarrao']
 
 jogo(palavras)
-
-
-
-
-
-
-
-
-
