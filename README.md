@@ -31,5 +31,5 @@ Aqui estão aplicações práticas com datasets variados, incluindo:
 
 **Priscila Dalepiane**  
 Desenvolvedora e estatística formada pela UFMT | Pós-graduanda em Machine Learning e MLOps  
-📎 [LinkedIn](https://www.linkedin.com/in/prisciladalepiane) 
+📎 [LinkedIn](https://www.linkedin.com/in/priscila-gon%C3%A7alves-dalepiane-947b65b2/) 
 
