@@ -139,18 +139,18 @@ Cada tipo de teste tem características próprias que o tornam adequado para cer
 
 ### Testes para variâncias:
 
-1. Teste F para Comparação de Duas Variâncias: Usado para comparar as variâncias de duas amostras independentes. Este teste é importante, por exemplo, no uso preliminar antes de realizar um t-teste, pois muitos t-testes assumem que as variâncias são iguais entre os grupos.
+1. **Teste F** para Comparação de Duas Variâncias: Usado para comparar as variâncias de duas amostras independentes. Este teste é importante, por exemplo, no uso preliminar antes de realizar um t-teste, pois muitos t-testes assumem que as variâncias são iguais entre os grupos.
 
-2. Teste de Levene ou Teste de Bartlett: Utilizados para verificar a homogeneidade das variâncias entre três ou mais grupos, o que é uma suposição comum em testes como ANOVA.
+2. **Teste de Levene ou Teste de Bartlett**: Utilizados para verificar a homogeneidade das variâncias entre três ou mais grupos, o que é uma suposição comum em testes como ANOVA.
 
 
 
 ### Considerações Adicionais
-Suposições: Cada teste tem suposições que precisam ser atendidas para que os resultados sejam válidos, como normalidade dos dados e independência das observações.
+**Suposições**: Cada teste tem suposições que precisam ser atendidas para que os resultados sejam válidos, como normalidade dos dados e independência das observações.
 
-Tamanho da Amostra e Poder Estatístico: O tamanho da amostra afeta a capacidade de detectar uma verdadeira diferença ou efeito (poder do teste). Testes inadequados para o tamanho da amostra podem levar a conclusões errôneas.
+**Tamanho da Amostra e Poder Estatístico**: O tamanho da amostra afeta a capacidade de detectar uma verdadeira diferença ou efeito (poder do teste). Testes inadequados para o tamanho da amostra podem levar a conclusões errôneas.
 
-Escolha do Teste: A escolha do teste adequado depende não apenas do tipo de dados, mas também da questão de pesquisa, do desenho do estudo e das suposições específicas associadas a cada teste.
+**Escolha do Teste**: A escolha do teste adequado depende não apenas do tipo de dados, mas também da questão de pesquisa, do desenho do estudo e das suposições específicas associadas a cada teste.
 
 > Ao planejar análises estatísticas, é importante escolher o teste apropriado baseado nas características dos dados e nos objetivos da pesquisa para garantir interpretações corretas e válidas dos resultados.
 
