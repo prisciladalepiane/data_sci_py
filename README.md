@@ -24,19 +24,19 @@ Aqui estão aplicações práticas com datasets variados, incluindo:
 ## 1 - Sistema de Recomendação de Filmes:  
 Este projeto aplica conceitos de vetores e espaço vetorial em um sistema de recomendação de filmes baseado em conteúdo. A partir das características dos filmes, o algoritmo calcula similaridades para sugerir cinco títulos semelhantes ao que foi assistido, utilizando dados da API do The Movie Database. A abordagem demonstra na prática como a distância entre vetores pode representar preferências e gerar recomendações personalizadas, como fazem plataformas de streaming.
   
-📁 [01-sistema-recomendacao.ipynb](Projetos/01-sistema-recomendacao.ipynb)
+ [01-sistema-recomendacao.ipynb](Projetos/01-sistema-recomendacao.ipynb)
 
 ### 2 - Algoritmo de Rede Neural
 
 Este notebook implementa uma **rede neural simples para classificação binária**, explicando o processo de aprendizado via gradiente descendente, do cálculo da saída à atualização dos pesos. Inclui exemplo prático com separação de dados, treinamento e previsão de resultados.
 
-📁 [02-algoritmo-rede-neural.ipynb](02-algoritmo-rede-neural.ipynb)
+ [02-algoritmo-rede-neural.ipynb](02-algoritmo-rede-neural.ipynb)
 
 ### 3 - Analise de componetes principais
 
 Análise de componentes principais de um questionário usando **algoritmo PCA**.
 
-📁 [03-analise-compontentes-principais.ipynb](03-analise-compontentes-principais.ipynb)
+ [03-analise-compontentes-principais.ipynb](03-analise-compontentes-principais.ipynb)
 
 ### 4 - Arquitetura Transformer
 
